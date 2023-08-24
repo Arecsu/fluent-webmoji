@@ -17,13 +17,13 @@ Featuring both Fluent Emoji families: 3D (Color) and Flat.
 
 Everything has been processed in the assets folder. To replicate the results or update it:
 
-1. Fetch the icons from Microsoft's Fluent Emoji](https://github.com/microsoft/fluentui-emoji) repo (~130mb).
+1. Fetch the icons from [Microsoft's Fluent Emoji](https://github.com/microsoft/fluentui-emoji) repo (~130mb).
 
 ```bash
 git clone https://github.com/microsoft/fluentui-emoji.git
 ```
 
-2. Prerequisistes: 
+2. Make sure you have: 
 
 - having `Python 3` (latest version) 
 - `Imagemagick` in the system
