@@ -48,4 +48,8 @@ python convert.py
 ./svg-processing.sh
 ``` 
 
-`svg-processing.sh` minifies the SVGs and renders WEBP alternatives.
+`convert.py` will transform the folder and file structure from Microsoft's Fluent Emoji repo to the one we need.
+
+`svg-processing.sh` minifies the SVGs and renders WEBP alternatives. It may take a long, long time. Like, 1 hour or so. It doesn't use all the cores because of performance loss due to overhead. You could find the optimal number of jobs for your CPU via the `parallel -j3` line, where `3` is the number of jobs. Compare the differents ETA times shown by the script when running at different number of jobs. This probably can be automated but I don't want to :\).
+
+
